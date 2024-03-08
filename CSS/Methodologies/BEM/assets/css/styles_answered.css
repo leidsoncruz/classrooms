@@ -1,0 +1,76 @@
+/* First exercise */
+
+/* Block: .button */
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;
+  border: 1px solid #D5D5D5;
+  background-image: linear-gradient(#EEE, #DDD);
+  font: 700 13px/18px Helvetica, arial;
+  cursor: pointer;
+}
+
+/* Modifier: .button--state-success */
+.button--state-success {
+  color: #FFF;
+  background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+  border-color: #4A993E;
+}
+
+/* Modifier: .button--state-danger */
+.button--state-danger {
+  background: #DC3545;
+  color: #FFF;
+}
+
+/* Second exercise */
+
+/* Block: .card */
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Element: .card__header */
+.card__header {
+  margin-bottom: 10px;
+}
+
+/* Element: .card__title */
+.card__title {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Element: .card__body */
+.card__body {
+  margin-bottom: 20px;
+}
+
+/* Element: .card__text */
+.card__text {
+  color: #666;
+}
+
+/* Element: .card__footer */
+.card__footer {
+  text-align: right;
+}
+
+/* Modifier: .card__button--primary */
+.card__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card__button--primary:hover {
+  background-color: #0056b3;
+}
